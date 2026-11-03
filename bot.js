@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer');
 function createBot() {
     const bot = mineflayer.createBot({
         host: 'survivalnocreative.aternos.me:58219', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
-        port: 67676,                // Puerto predeterminado de Minecraft
+        port: 58219,                // Puerto predeterminado de Minecraft
         username: 'si_muero_se_cierra',    // Nombre genérico del bot/NPC dentro del juego
         version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
